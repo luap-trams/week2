@@ -1,0 +1,53 @@
+/* Even-numbered sections:
+* Give them a background color of fuchsia. */
+
+section:nth-child(even) 
+{background: fuchsia;}
+    /* * Apply a border to the heading: border: 15px solid blue.####### */
+
+/* body>section>h2:nth-child(even) 
+{font-size 67px;} */
+
+/* * Set the line height for paragraphs: line-height: 2. */
+section p 
+{line-height: 2;}
+
+/* Font size:
+* All elements within the sections should have a font size of 24px. */
+section *
+{font-size: 24px;}
+/* Odd-numbered sections:
+* Give them a background color: #ccc. */
+section:nth-child(odd) 
+{background: #ccc;}
+/* * Apply a border to the heading: border-bottom: 12px double crimson. */
+/* 
+Description list (dl):
+* Set the text color: white. */
+section>dl
+{color: white;}
+/* * Set the background color: RGB(0,0,255). */
+section>dl
+{background-color: RGB(0,0,255);}
+/* Targeting dt elements:
+* Apply a background color: gray. */
+/* * Apply padding: padding: 20px. */
+/* body>Section>dl+dt
+{background-color: gray; padding: 20px;} */
+/* Targeting dd elements:
+* Set a line height for dd elements that are siblings to dt: line-height: 2. */
+dd
+{line-height: 2;}
+/* Ordered (ol) and unordered (ul) lists:
+* Target every 3n element in ordered lists and every 2n element in unordered lists.
+* Apply a different background color and padding: padding-block: 15px. */
+ol li:nth-child(3)
+{background-color: rgb(43, 226, 95); padding-block: 15px;}
+ul li:nth-child(2)
+{background-color: rgb(226, 187, 14); padding-block: 15px;}
+/* Images:
+For all remote images, apply a border radius of "0 50px 0 50px". For local images, apply a border radius of "50px 0 50px 0". */
+
+
+
+
